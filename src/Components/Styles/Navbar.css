@@ -1,0 +1,26 @@
+header > div {
+    min-height: 84px;
+    padding: 0;
+}
+header  {
+    background-color: #fff !important;
+    margin-bottom: 30px;
+    color: #000 !important;
+}
+header .wrapper > .css-1juivf6-MuiTypography-root {
+    font-weight: bold;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    header .wrapper > .css-1juivf6-MuiTypography-root {
+        font-size: 16px;
+    } 
+    header .wrapper button {
+        font-size: 16px;
+    } 
+}

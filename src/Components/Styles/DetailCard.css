@@ -1,0 +1,98 @@
+.detailCardWrapper .cardWrapper {
+    width: 50%;
+    padding: 0;
+
+}
+.detailCardWrapper  {
+    display: flex;
+    flex-direction: row;
+}
+.detailCardWrapper .cardWrapper div {
+    width: 100%;
+    max-width: 100%;
+}
+.detailCardWrapper .cardWrapper img {
+    height: auto;
+}
+.cardText div {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+}
+.cardText, .detailCardWrapper .cardWrapper {
+    flex: 1;
+}
+.cardText {
+    padding-left: 100px;
+}
+.cardText ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+}
+.cardText ul li {
+    font-size: 15px;
+    margin: 0 0 10px;
+    width: 50%;
+    color: #333333;
+}
+.cardText ul li:last-child {
+    margin: 0;
+}
+.cardText ul li span {
+    font-weight: 600;
+    margin-right: 5px;
+    color: #000000;
+}
+.cardText ul li li {
+    width: auto;
+    display: inline-block;
+    margin-right: 7px;
+}
+.buttonRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 12px;
+}
+.buttonRow span {
+   flex-basis: 150px;
+   font-size: 18px;
+}
+.buttonItem {
+    margin: 5px;
+    border: 0;
+    padding: 8px 30px;
+    box-shadow: 0 2px 8px #3333;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.backButton {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.backButton svg {
+margin-right: 10px;}
+@media only screen and (max-width: 767px) {
+    .detailCardWrapper  {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .detailCardWrapper .cardWrapper, .cardText ul li {
+        width: 100%;
+    }
+    .cardText {
+        padding-left: 0;
+    }
+    .detailCardWrapper .css-46bh2p-MuiCardContent-root {
+       padding: 0;
+   }
+   .cardText div {
+        padding: 0;
+    }
+    .buttonRow span {
+        flex-basis: 100%;
+    }
+}
